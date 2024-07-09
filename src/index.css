@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+.body{
+
+  
+  background: rgba(255, 255, 255, 0.62);
+
+} */
+
+
+ .border-gradient{
+
+    border: 3px solid rgba(30, 30, 30, 0.84);
+    border-radius: 20px;
+    
+    
+}
+
+
+ 
+
+.border-gradient:hover{
+
+    /* border: 3px solid ;border-image-source: linear-gradient(180deg, #5F259F 0%, #3D54CE 50%, #0065D3 100%); */
+    border:3px solid #0000;
+  border-radius:20px;
+  background:
+    linear-gradient(white,white) padding-box,
+    linear-gradient(180deg, #5F259F 0%, #3D54CE 50%, #0065D3 100%) border-box;
+  cursor: pointer;
+     
+   
+    
+}
+    
+
+                 
+                 
+                
